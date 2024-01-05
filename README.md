@@ -22,7 +22,7 @@ Return the result table in any order.
 
 The result format is in the following example.
 
- ##SOLUTION
+ ## SOLUTION
 
 SELECT product_id
 FROM Products 
@@ -78,7 +78,7 @@ Write a solution to find the name, population, and area of the big countries.
 
 Return the result table in any order.
 
-##SOLUTION
+## SOLUTION
 
 SELECT name, population,area 
 
@@ -86,7 +86,7 @@ FROM World
 
 WHERE area >= 3000000 OR population >= 25000000;
 
-##EXERCISE 4
+## EXERCISE 4
 Table: Views
 
 +---------------+---------+
@@ -107,7 +107,7 @@ FROM Views
 WHERE author_id = viewer_id 
 ORDER BY id ASC
 
-##EXERCISE 5
+## EXERCISE 5
 Table: Tweets
 
 +----------------+---------+
@@ -124,4 +124,9 @@ Write a solution to find the IDs of the invalid tweets. The tweet is invalid if 
 
 Return the result table in any order.
 
+## SOLUTION 
+
+SELECT tweet_id
+FROM Tweets
+WHERE LENGTH(content)>15;
 
