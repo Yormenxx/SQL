@@ -22,7 +22,7 @@ Return the result table in any order.
 
 The result format is in the following example.
 
- ## SOLUTION
+ ##SOLUTION
 
 SELECT product_id
 FROM Products 
